@@ -2721,6 +2721,11 @@
       "sw-version-id": "\\;version:6"
     },
     "html": "<title>Shopware ([\\d\\.]+) [^<]+\\;version:\\1",
+	"dom": {
+		"div#cookie-consent.off-canvas.is--left.block-transition": {
+			"text": "\\;version:5.7"
+		}
+	},
     "icon": "Shopware.svg",
     "implies": [
       "PHP",
@@ -2744,6 +2749,10 @@
       "(?:(shopware)|/web/cache/[0-9]{10}_.+)\\.js\\;version:\\1?4:5",
       "/jquery\\.shopware\\.min\\.js",
       "/engine/Shopware/"
+    ],
+    "scripts": [
+      "var secureShop =\\;version:5.6",
+      "\\* Wrap the replacement code\\;version:5.5"
     ],
     "website": "https://www.shopware.com"
   },
