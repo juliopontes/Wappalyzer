@@ -1964,19 +1964,6 @@
     "scriptSrc": "(?:/([\\d\\.]+)/min/)?tiny-slider(?:\\.min)?\\.js\\;version:\\1",
     "website": "https://github.com/ganlanyuan/tiny-slider"
   },
-  "TinyMCE": {
-    "cats": [
-      24
-    ],
-    "cpe": "cpe:2.3:a:tiny:tinymce:*:*:*:*:*:*:*:*",
-    "description": "TinyMCE is an online rich-text editor released as open-source software. TinyMCE is designed to integrate with JavaScript libraries, Vue.js, and AngularJS as well as content management systems such as Joomla!, and WordPress.",
-    "icon": "TinyMCE.png",
-    "js": {
-      "tinyMCE.majorVersion": "([\\d.]+)\\;version:\\1"
-    },
-    "scriptSrc": "/tiny_?mce(?:\\.min)?\\.js",
-    "website": "http://tinymce.com"
-  },
   "Tippy.js": {
     "cats": [
       59
